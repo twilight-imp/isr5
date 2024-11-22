@@ -18,5 +18,13 @@ class Main{
         int res = a + b;
         System.out.println("Вот их сумма: " + res);
 
+        System.out.println("Теперь опять проверим работу вычитания");
+        System.out.println("Введите первое число");
+        int c = scanner.nextInt();
+        System.out.println("Введите второе число");
+        int d = scanner.nextInt();
+        int res2 = c + d;
+        System.out.println("Вот их разность: " + res2);
+
     }
 } 
